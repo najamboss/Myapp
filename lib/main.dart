@@ -10,12 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home:Container(
-        child:Center(
-          child: Text("welcome")
-        )
-        
-      ),
+      home: Container(
+          child: Center(child: Text("welcome to git hub and flutter"))),
     );
   }
 }
